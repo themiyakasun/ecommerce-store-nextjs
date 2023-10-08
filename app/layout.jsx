@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 
 import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export const metadata = {
   title: 'E-commerce',
@@ -17,6 +18,9 @@ const RootLayout = ({ children }) => {
           <Header />
         </header>
         <main>{children}</main>
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );

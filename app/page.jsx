@@ -7,6 +7,7 @@ import PeakyBlinderSection from '@components/PeakyBlinderSection';
 import FeaturesSection from '@components/FeaturesSection';
 import Gallery from '@components/Gallery';
 import TestimonialSection from '@components/TestimonialSection';
+import NewsletterSection from '@components/NewsletterSection';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <FeaturesSection />
       <Gallery />
       <TestimonialSection />
+      <NewsletterSection />
     </div>
   );
 };
